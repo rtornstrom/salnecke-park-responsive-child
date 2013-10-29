@@ -32,6 +32,7 @@ License URI: LICENSE
 /* Page background */
 body {
 	background-color: #005f3a;
+	background: url(images/gradient_back_fixed.jpg) fixed repeat-x;
 	color: #ffffff;
 }
 
@@ -45,6 +46,11 @@ del {
 
 .commentlist ul, .commentlist li, .commentlist li.alt {
 	background-color: #005f3a;
+}
+
+#respond {
+	background-color: #005f3a;
+	background-image: none;
 }
 
 /* Content background */
