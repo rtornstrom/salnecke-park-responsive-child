@@ -43,6 +43,10 @@ del {
 	color: #ffffff;
 }
 
+.commentlist ul, .commentlist li, .commentlist li.alt {
+	background-color: #005f3a;
+}
+
 /* Content background */
 #wrapper {
 	background-color: #005f3a;
