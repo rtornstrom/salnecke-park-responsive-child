@@ -1,35 +1,59 @@
 /* 
-Theme Name: Responsive Child Theme
-Theme URI: http://cyberchimps.com/guide/child-theme-example/
-Description: Responsive Child Theme
+Theme Name: Salnecke Park Responsive Child Theme
+Theme URI: https://github.com/rtornstrom/salnecke-park-responsive-child
+Description: Salnecke Park Responsive Child Theme
 Template: responsive
 Version: 1.0.0
-Author: CyberChimps
-Author URI: https://cyberchimps.com/
+Author: Roger Törnström
+Author URI: https://github.com/rtornstrom/
 License: GNU General Public License
-License URI: license.txt
+License URI: LICENSE
 
 */
 
 /* =Start From Here
 -------------------------------------------------------------- */
 
+/******************************
+ * Header image
+ ******************************/
 
+/* Full width (http://cyberchimps.com/guide/full-width-logo-header/) */
+#logo img {
+	max-width: 960px;
+	width: 100%;
+}
+/* Could be extended with http://cyberchimps.com/guide/responsive-logo/ */
 
+/******************************
+ * Custom colors
+ ******************************/
 
+/* Page background */
+body {
+	background-color: #005f3a;
+	color: #ffffff;
+}
 
+a {
+	color: #ffffff;
+}
 
+/* Content background */
+#wrapper {
+	background-color: #005f3a;
+	border: 0;
+}
 
-
-
-
-
-
-
-
+/* Widget background */
+.widget-wrapper {
+	background-color: #005f3a;
+	border-color: rgb(118, 162, 241);
+}
 
 
 
 
 
 /*The last 29 days of the month are the hardest."- Nikola Tesla*/
+
